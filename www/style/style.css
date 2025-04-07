@@ -1,0 +1,137 @@
+body{
+      background-image: url('../images/Metawall.jpg');
+      height: 150%;
+      overflow-x: hidden;
+}
+header{
+      background-color: black;
+      height: 10%;
+      margin-bottom: 0.5%;
+      color: gray;
+      border-radius: 20px;
+      padding-left: 2%;
+      
+}
+
+n{
+      position: relative;
+      font-size: large;
+      padding: 5%;
+}
+
+.mnt{
+      background-color: black;
+      text-align: center;
+      border-radius: 9px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.6);
+
+
+}
+.maintext
+{
+      color: aliceblue;
+      font-family: Arial, Helvetica, sans-serif;
+      font-size: larger;
+}
+
+
+.Shop{
+      background-color: gray;
+      margin: 2%;
+      border: 0.1em, solid, black;
+      font-weight: 1000;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+      border-radius: 16px;
+      box-shadow: 0 10px 20px rgba(0,0,0,0.9);
+      transform: translateZ(0);
+}
+
+linktext{
+      padding-left: 3%;
+}
+
+.shoptext{
+      color: rgb(0, 0, 0);
+      text-align: center;
+      padding: 4%;
+      padding-left: 4%;
+      font-size: 130%;
+      border: solid, black, 0.1em;
+      margin: 2%;
+      background-color: rgb(255, 255, 255);
+      font-weight: bold;
+      border-radius: 20px; 
+      box-shadow: 0 10px 20px rgba(0,0,0,0.8);
+      transform: translateZ(0);
+
+}
+
+footer{
+      position: relative;
+      background-color: rgb(151, 144, 144);
+      margin-top: 3.2%;
+      padding: 2%;
+      width: 99%;
+      font-size: larger;
+      font-weight: 1000;
+      bottom: auto;
+      border: 0.7em, solid, rgb(130, 118, 118);
+      border-bottom: 0;
+      border-right: 0;
+      border-left: 0;
+      right: 2%;
+      top: 40px;
+}
+
+.footer_links{
+      position: relative;
+     
+}
+
+@media (max-width: 660px) {
+      n {   
+          white-space: normal;    
+          display: block;  
+          padding-left: 1%;
+      }
+  }
+
+  @media (min-width: 660px) {
+      n {   
+      position: relative;
+      display: inline;
+      text-align: right;
+      right: 3%;
+      font-size: 50%
+      }
+  }
+
+  @media (min-width: 780px) {
+      .shoptext {   
+          font-size: 240%;
+      }
+      
+  }
+
+  @media (max-width: 345px)
+  {
+      header{
+            font-size: 60%;
+      }
+  }
+
+
+  @media (min-width: 810px)
+  {
+      n{
+            font-size: 60%;
+      }
+  }
+
+  .img:hover
+  {
+      transform:scale(105%);
+  }
+
+  
+
