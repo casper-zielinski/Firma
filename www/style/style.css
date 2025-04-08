@@ -104,6 +104,15 @@ footer{
       right: 3%;
       font-size: 50%
       }
+      
+      .maintext{
+            font-size: 2em;
+      }
+
+      linktext
+      {
+            font-size: 2em;
+      }
   }
 
   @media (min-width: 780px) {
