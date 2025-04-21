@@ -13,10 +13,15 @@ header{
       
 }
 
+.img{
+      padding-bottom: 2em;
+}
+
 n{
       position: relative;
       font-size: large;
       padding: 5%;
+      padding-right: 2%;
 }
 
 .mnt{
@@ -88,11 +93,25 @@ footer{
      
 }
 
-@media (max-width: 660px) {
-      n {   
+@media (max-width: 500px) {
+      .shoptext {  
+          position: relative;
           white-space: normal;    
           display: block;  
-          padding-left: 1%;
+          padding-left: 2%;
+          padding: 2%;
+          transform: scale(85%);
+      }
+  }
+
+
+@media (max-width: 660px) {
+      n {  
+          position: relative;
+          white-space: normal;    
+          display: block;  
+          padding-left: 2%;
+          padding: 2%;
       }
   }
 
@@ -114,6 +133,52 @@ footer{
             font-size: 2em;
       }
   }
+
+  @media (min-width: 800px){
+      .bildeins{
+            transform: scale(-50%);
+            position: relative;
+            left: -23em;
+            top: -10em;
+      }
+
+      .linktexteins{
+            position: relative;
+            top: -10em;
+      }
+
+      .shoptexteins
+      {
+            position: relative;
+            left: -9.5em;
+            top: -10em;
+      }
+
+      .linktextzwei{
+            position: relative;
+            top: -60.5em; 
+            left: 25em;
+      }
+
+      .img:hover
+      {
+          transform:scale(52%);
+      }
+
+      .shoptext{
+            transform:scale(50%);
+      }
+
+  }
+
+  @media (max-width: 800px){
+      
+      .img:hover
+      {
+          transform:scale(105%);
+      }
+  }
+
 
   @media (min-width: 780px) {
       .shoptext {   
@@ -137,10 +202,7 @@ footer{
       }
   }
 
-  .img:hover
-  {
-      transform:scale(105%);
-  }
+ 
 
   
 
