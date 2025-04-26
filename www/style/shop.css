@@ -1,0 +1,16 @@
+.seins img{
+      border-radius: 20px; 
+      top:2px; 
+      box-shadow: 0 10px 20px rgba(0,0,0,0.3);
+      width: 50%;
+      position: relative;
+      left: 25%;
+      transition: transform 0.3s ease;
+}
+
+.seins img:hover {
+      transform: scale(1.05);
+      top: 0px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+

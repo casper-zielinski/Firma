@@ -190,6 +190,14 @@ footer{
      
 }
 
+.navtext{
+      color: black;
+      font-size: 100%;
+      padding-left: 2%;
+      padding-right: 2%;
+      font-weight: 1000;
+}
+
 @media (max-width: 500px) {
       .shoptext {  
           position: relative;
@@ -232,7 +240,9 @@ footer{
   }
 
   @media (min-width: 800px){
-
+      header{
+            font-size: 150%;
+      }
 
 
       .Shop {
@@ -242,11 +252,12 @@ footer{
            padding: 1em;
            max-width: 1200px;
            margin: 0 auto;
-           padding-bottom: -33%;
+           padding-bottom: 0%;
+           height: auto;
         }
 
         .eins img {
-            width: 90%;
+            width: 100%;
             height: auto;
             object-fit: cover;
             transition: transform 0.3s ease;
@@ -265,7 +276,7 @@ footer{
       .shopteins{
             position: relative;
             left: -30%;
-            bottom: -15%;
+            bottom: -14.5%;
            }
           
 
@@ -282,7 +293,7 @@ footer{
           .linktextzwei{
             position: relative;
             left: 125%;
-            bottom:77.6%;
+            bottom:88.6%;
           }
 
           .shoptzwei{
@@ -293,9 +304,9 @@ footer{
 
          .drei img{
             position: relative;
-            height: auto;
-            object-fit: cover;
             transition: transform 0.3s ease;
+            margin-top: -35%;
+            left:12.5%;
           }
 
               .drei img:hover {
@@ -303,155 +314,91 @@ footer{
               }
       
 
-     
+              .linktextdrei{
+                  position: relative;
+                  left: -95%;
+                  bottom: -95%;
+              }
 
-      
+              .shoptdrei{
+                  position: relative;
+                  left: -30%;
+                  bottom: -30.5%;
+              }
+
+              
+            .vier img{
+                  position: relative;
+                  transition: transform 0.3s ease;
+                  margin-top: -59%;
+                  left:12.5%;
+                }
+
+                .vier img:hover {
+                    transform: scale(1.05);
+                }
+        
+
+                .linktextvier{
+                    position: relative;
+                    left: 10%;
+                    bottom: -0.4%;
+                }
+
+                .shoptvier{
+                    position: relative;
+                    left: -30%;
+                    bottom: 8%;
+                }
+
+                .fünf img{
+                  position: relative;
+                  transition: transform 0.3s ease;
+                  margin-top: -7%;
+                  left:12.5%;
+                }
+
+                .fünf img:hover {
+                    transform: scale(1.05);
+                }
+        
+
+                .linktextfünf{
+                    position: relative;
+                    left: -95%;
+                    bottom: -100%;
+                }
+
+                .shoptfünf{
+                    position: relative;
+                    left: -30%;
+                    bottom: -10%;
+                }
+
+                  .sechs img{
+                    position: relative;
+                    transition: transform 0.3s ease;
+                    margin-top: -100%;
+                    left:12.5%;
+                    top:-21%
+                  }
 
           .sechs img:hover {
             transform: scale(1.05);
           }
 
-          
-
-        /*
-     .eins img{
-      transform: scale(0.6);
-      position: relative;
-      left: -12%;
-      top: -10vh;
-     }
-     
-     .shopteins{
-      position: relative;
-      left: -20em;
-      top: -17em;
-     }
-
-      
-
-      .zwei img{
-            transform: scale(0.6);
-            left: -4%;
-            top: -29em;
-            
-      }
-
-      .shoptzwei{
+          .linktextsechs{
             position: relative;
-            left: -20em;
-            top: -45em;
-      }
+            left: 115%;
+            bottom: 113%;
+          }
 
-      .linktextzwei{
+          .shoptsechs{
             position: relative;
-            top: -20em; 
-            left: 2em;
-      }
+            left: -30%;
+            bottom: 95.7%;
+          }
 
-      .drei img{
-            position: relative;
-            transform: scale(0.46);
-            top: -351vh;
-            left: 34%;
-      }
-
-      .linktextdrei{
-            position: relative;
-            top: -79em;
-            left: 21.5em;
-      }
-
-      .shoptdrei{
-            position: relative;
-            top: -163.2em;
-            left: 20.5em;
-      }
-      
-      .vier img{
-            position: relative;
-            transform: scale(0.53);
-            left: 28em;
-            top: -178.1em;
-      }
-
-      .linktextvier{
-            position: relative;
-            top: -96em;
-            left: 50.2%;
-      }
-
-      .shoptvier{
-            position: relative;
-            left: 24.5%;
-            top: -475.7vh;
-      }
-
-      .fünf img{
-            position: relative;
-            transform: scale(0.46);
-            left: -14%;
-            top:-522vh;
-      }
-
-      .linktextfünf{
-            position: relative;
-            left: 4.5%;
-            top:-566vh;
-      }
-
-      .shoptfünf{
-            position: relative;
-            left: -24.5%;
-            top:-578vh;
-      }
-
-      .sechs img{
-            position: relative;
-            transform: scale(0.465);
-            left: 34%;
-            top:-742vh;
-      }
-
-      .linktextsechs{
-            position: relative;
-            left: 50.2%;
-            top:-784vh;
-      }
-
-      .shoptsechs{
-            position: relative;
-            left: 24.5%;
-            top:-797.5vh;  
-      }
-            */
-
-            /*
-      .eins img:hover
-      {
-          transform:scale(63%);
-      }
-
-      .zwei img:hover
-      {
-            transform:scale(63%);
-      }
-
-      .drei img:hover{
-            transform:scale(48%);
-      }
-
-      .vier img:hover{
-            transform:scale(54.6%);
-      }
-
-      .fünf img:hover{
-            transform: scale(48%);
-      }
-
-      .sechs img:hover{
-            transform: scale(48%);
-      }
-            */
 
       .shoptext{
             transform:scale(60%);
@@ -492,8 +439,3 @@ footer{
             font-size: 60%;
       }
   }
-
- 
-
-  
-
