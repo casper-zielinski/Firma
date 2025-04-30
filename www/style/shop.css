@@ -6,11 +6,130 @@
       position: relative;
       left: 25%;
       transition: transform 0.3s ease;
+      margin-top: 1.5%;
 }
 
 .seins img:hover {
-      transform: scale(1.05);
+      transform: scale(1.02);
       top: 0px;
       box-shadow: 0 20px 40px rgba(0,0,0,0.5);
 }
 
+.Beschreibung{
+      background-color: grey;
+      padding: 0.5em;
+      border: 0.1em, solid, black;
+      border-radius: 20px;
+      font-family: Arial, Helvetica, sans-serif;
+}
+
+.Beschreibungtext{
+      position: relative;
+      font-size: 140%;
+      color: #010000;
+      text-align:center;
+      margin-top: 10px;
+      background-color:white;
+      font-weight: 900;
+      border-radius: 10px;
+      border: 0.1em, solid, black;	
+      transition: transform 0.3s ease;
+}
+
+.Beschreibungtext:hover{
+      transform: scale(1.0004);
+      top: 0px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+.beschreibtext{
+      position: relative;
+      font-size: 140%;
+      color: #010000;
+      text-align:center;
+      margin-top: 10px;
+      background-color:white;
+      font-weight: 900;
+      border-radius: 10px;
+      border: 0.1em, solid, black;
+      padding: 1.5%;
+      transition: transform 0.3s ease;
+}
+
+.beschreibtext:hover{
+      transform: scale(1.004);
+      top: 0px;
+      box-shadow: 0 20px 40px rgba(0,0,0,0.5);
+}
+
+
+.maintext{
+      font-weight: 1000;
+}
+
+.mnt{
+      padding: 2em;
+}
+.Formular{
+      margin-top: 1em;
+      background-color: gray;
+      font-family: Arial, Helvetica, sans-serif;
+      border-radius: 10px;
+      font-size: 20px;
+}
+
+form input{
+      width: 40%;
+      height: 40px;
+}
+
+input[type="email"] {
+      width: 40%;
+}
+
+@media (max-width: 600px) {
+      .seins img {
+            width: 80%;
+            left: 10%;
+      }
+      .Beschreibungtext {
+            font-size: 120%;
+      }
+      .beschreibtext {
+            font-size: 120%;
+      }
+}
+
+@media (max-width: 1000px) {
+
+      input[type="email"] {
+            width: 60%;
+      }    
+
+      input#knr {
+            width: 60%; 
+      }
+        
+      input#karteninhaber {
+            width: 60%;
+      }
+      
+}
+
+@media (max-width: 500px) {
+      input[type="email"] {
+            width: 92.5%;
+      }   
+
+      input:not([type="email"]) {
+            width: 60%;
+      }
+
+      input#knr {
+            width: 92.5%; 
+      }
+        
+      input#karteninhaber {
+            width: 92.5%;
+      }
+}

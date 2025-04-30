@@ -1,0 +1,9 @@
+
+
+@media (max-width: 800px) {
+    .imgsquat{
+        position: relative;
+        width: 75%;
+        left: 10%;
+    }
+}
